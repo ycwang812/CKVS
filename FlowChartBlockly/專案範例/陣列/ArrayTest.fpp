@@ -1,0 +1,271 @@
+15       	 <--SHAPES
+14       	 <--LINES
+id1
+2       	 <--TYPE
+282       	 <--LEFT
+59       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+START
+
+
+
+id2
+2       	 <--TYPE
+284       	 <--LEFT
+422       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+STOP
+
+
+
+id3
+0       	 <--TYPE
+287       	 <--LEFT
+141       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+i
+0
+
+id4
+0       	 <--TYPE
+166       	 <--LEFT
+188       	 <--TOP
+84       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+Size[0]
+0
+
+id5
+0       	 <--TYPE
+280       	 <--LEFT
+222       	 <--TOP
+84       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+Size[1]
+1
+
+id6
+91       	 <--TYPE
+276       	 <--LEFT
+276       	 <--TOP
+90       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+
+Size[i]
+
+id7
+0       	 <--TYPE
+294       	 <--LEFT
+329       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+i
+1
+
+id8
+91       	 <--TYPE
+398       	 <--LEFT
+338       	 <--TOP
+90       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+
+Size[i]
+
+id9
+0       	 <--TYPE
+480       	 <--LEFT
+399       	 <--TOP
+102       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+temp
+Size[i]
+
+id10
+91       	 <--TYPE
+392       	 <--LEFT
+448       	 <--TOP
+90       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+
+temp
+
+id11
+91       	 <--TYPE
+494       	 <--LEFT
+218       	 <--TOP
+197       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+INPUT
+Input Array variable: 
+Size[3]
+
+id12
+91       	 <--TYPE
+549       	 <--LEFT
+289       	 <--TOP
+90       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+
+Size[3]
+
+id13
+91       	 <--TYPE
+494       	 <--LEFT
+72       	 <--TOP
+197       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+INPUT
+Input Array Variable: 
+Size[i]
+
+id14
+0       	 <--TYPE
+385       	 <--LEFT
+63       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+i
+4
+
+id15
+91       	 <--TYPE
+548       	 <--LEFT
+144       	 <--TOP
+90       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+OUTPUT
+
+Size[i]
+
+  
+---- LINES ---- from,to ----
+id3,id4
+reserved 1
+
+id5,id6
+reserved 1
+
+id6,id7
+reserved 1
+
+id7,id8
+reserved 1
+
+id4,id5
+reserved 1
+
+id8,id9
+reserved 1
+
+id9,id10
+reserved 1
+
+id10,id2
+reserved 1
+
+id11,id12
+reserved 1
+
+id12,id3
+reserved 1
+
+id1,id14
+reserved 1
+
+id14,id13
+reserved 1
+
+id13,id15
+reserved 1
+
+id15,id11
+reserved 1
+

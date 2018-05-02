@@ -1,9 +1,9 @@
-6       	 <--SHAPES
-5       	 <--LINES
+5       	 <--SHAPES
+4       	 <--LINES
 id1
 2       	 <--TYPE
-282       	 <--LEFT
-58       	 <--TOP
+284       	 <--LEFT
+60       	 <--TOP
 70       	 <--WIDTH
 30       	 <--HEIGHT
 16777215       	 <--BACKCOLOR
@@ -17,8 +17,8 @@ START
 
 id2
 2       	 <--TYPE
-282       	 <--LEFT
-341       	 <--TOP
+286       	 <--LEFT
+313       	 <--TOP
 70       	 <--WIDTH
 30       	 <--HEIGHT
 16777215       	 <--BACKCOLOR
@@ -31,54 +31,9 @@ STOP
 
 
 id3
-0       	 <--TYPE
-279       	 <--LEFT
-113       	 <--TOP
-75       	 <--WIDTH
-30       	 <--HEIGHT
-16777215       	 <--BACKCOLOR
-0       	 <--BORDERCOLOR
-0       	 <--BORDERCOLOR
--reserved 1-
--reserved 2-
-DEFINITION
-a
-212
-
-id4
-0       	 <--TYPE
-279       	 <--LEFT
-164       	 <--TOP
-75       	 <--WIDTH
-30       	 <--HEIGHT
-16777215       	 <--BACKCOLOR
-0       	 <--BORDERCOLOR
-0       	 <--BORDERCOLOR
--reserved 1-
--reserved 2-
-DEFINITION
-f
-a
-
-id5
-0       	 <--TYPE
-237       	 <--LEFT
-219       	 <--TOP
-160       	 <--WIDTH
-30       	 <--HEIGHT
-16777215       	 <--BACKCOLOR
-0       	 <--BORDERCOLOR
-0       	 <--BORDERCOLOR
--reserved 1-
--reserved 2-
-DEFINITION
-c
-(5.0 / 9.0 ) * (f - 32)
-
-id6
-91       	 <--TYPE
-272       	 <--LEFT
-278       	 <--TOP
+93       	 <--TYPE
+275       	 <--LEFT
+169       	 <--TOP
 90       	 <--WIDTH
 40       	 <--HEIGHT
 16777215       	 <--BACKCOLOR
@@ -86,24 +41,51 @@ id6
 0       	 <--BORDERCOLOR
 -reserved 1-
 -reserved 2-
+FUNCTION
+Rnd
+n
+r
+id4
+0       	 <--TYPE
+284       	 <--LEFT
+116       	 <--TOP
+70       	 <--WIDTH
+30       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
+DEFINITION
+n
+150
+
+id5
+91       	 <--TYPE
+232       	 <--LEFT
+237       	 <--TOP
+177       	 <--WIDTH
+40       	 <--HEIGHT
+16777215       	 <--BACKCOLOR
+0       	 <--BORDERCOLOR
+0       	 <--BORDERCOLOR
+-reserved 1-
+-reserved 2-
 OUTPUT
-c=
-c
+亂數值 {0} 已經產生
+r
 
   
 ---- LINES ---- from,to ----
-id1,id3
+id1,id4
 reserved 1
 
-id3,id4
+id4,id3
 reserved 1
 
-id4,id5
+id3,id5
 reserved 1
 
-id5,id6
-reserved 1
-
-id6,id2
+id5,id2
 reserved 1
 
